@@ -88,9 +88,9 @@
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-.search-btn:hover{
-    background-color: #fcaa3f;
-    cursor: pointer;
+.search-btn:hover {
+  background-color: #fcaa3f;
+  cursor: pointer;
 }
 
 .nav-right {
@@ -98,19 +98,69 @@
   align-items: center;
   justify-content: space-between;
 }
-.signin-box{
-    margin-left: 20px;
+.signin-box {
+  margin-left: 20px;
 }
-.signin-box-msg{
-    font-size: 0.8rem;
+.signin-box-msg {
+  font-size: 0.8rem;
 }
-.signin-box-acc{
-    font-size: 0.9rem;
-    font-weight: 700;
+.signin-box-acc {
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 .logo {
-  width: 95px
+  width: 95px;
 }
-.logo img{
-    width: 98px;
+.logo img {
+  width: 98px;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #232F3E;
+  height: 38px;
+}
+
+.nav-left-area {
+  display: flex;
+  margin-left: 8px;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.nav-right-area a{
+  color: #dddddd;
+  font-weight: 400;
+}
+
+/* Hero Section */
+.hero img{
+  width: 100%;
+}
+
+/* Main Layout */
+.main-layout{
+  position: relative;
+  padding: 25px;
+  top: -350px;
+}
+/* Top Card Section */
+
+.top-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card{
+  width: 350px;
+  height: 700px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+}
+
