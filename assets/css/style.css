@@ -8,11 +8,15 @@
 :root {
   --amazon-primary-color: #131921;
   --amazon-secondary-color: #232f3e;
+
+  --amazon-bg-color: #E3E6E6;
 }
 .hovered:hover {
   border: 1px solid #ffffff;
 }
-
+body{
+  background-color: #E3E6E6;
+}
 .header-top {
   background-color: var(--amazon-primary-color);
   padding: 5px 16px 5px;
@@ -148,7 +152,7 @@ nav a {
 .main-layout{
   position: relative;
   padding: 25px;
-  top: -350px;
+  top: -380px;
 }
 /* Top Card Section */
 
@@ -158,9 +162,12 @@ nav a {
   justify-content: space-between;
 }
 .card{
-  width: 350px;
-  height: 700px;
-  border-radius: 10px;
+  width: 352px;
+  height: 422px;
   background-color: #FFFFFF;
 }
-
+.card .card-title{
+  margin: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
